@@ -56,7 +56,7 @@ def DPLogestPalindrome(s):
     #返回最长回文子串
     return s[start:start+maxlen]
 
-s="aaaaaaa"
+s="abcbaaaaaab"
 #result=longestPalindrome(s)
 result=DPLogestPalindrome(s)
 print(result)
